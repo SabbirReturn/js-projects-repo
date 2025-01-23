@@ -1,0 +1,12 @@
+*{
+    max-width: 1330px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+.sign-container{
+    text-align: center;
+    margin-top: 100px;
+}
+input{
+    text-align: center;
+}
