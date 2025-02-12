@@ -27,13 +27,16 @@
                           <h2 class="card-title pl-32 md:pl-28">Triangle</h2>
                           <p>Area (A) =0.05 X b X h</p>
                           <div>
-                            <input class="w-16 h-8 rounded-lg" type="number" name="" id="">
+                            <input class="w-16 h-8 rounded-lg" id="first-Number" type="number" name="" >
                           <span>Cm</span>
-                          <input class="w-16 h-8 rounded-lg" type="number" name="" id="">
+                          <input class="w-16 h-8 rounded-lg" type="number" name="" id="second-Number">
                           <span>Cm</span>
                           </div>
+                          <div>
+                            <p>Area: <span id="area-value"></span>cm <sup>2</sup></p>
+                          </div>
                           <div class="card-actions justify-center">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button class="btn btn-primary" id="Calculate-btn">Calculate</button>
                           </div>
                         </div>
                     </div>
@@ -100,10 +103,11 @@
                 </div>
                 <!-- Calculation Area -->
                 <div class="border-2 border-white text-center rounded-xl p-4">
-                    <h1  class="text-3xl w-96 ">Area Calculation</h1>
+                    <h1 class="text-3xl w-96 " id="areaContainer">Area Calculation</h1>
                 </div>
             </div>
         </main>
     </body>
+    <script src="scripts/triangle.js"></script>
 </body>
 </html>
