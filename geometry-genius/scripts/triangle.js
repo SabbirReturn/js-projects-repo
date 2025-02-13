@@ -6,7 +6,6 @@ document.getElementById('Calculate-btn').addEventListener('click', function(){
     let secondNumberText = secondNumber.value
     let height = parseFloat(secondNumberText);
     let result = 0.5* base* height;
-    console.log(result)
    let areaResult = document.getElementById('area-value');
    areaResult.innerText  = result;
 
