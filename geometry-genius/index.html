@@ -17,6 +17,9 @@
             <div class="flex flex-col md:flex-row">
                 <!-- shape container -->
                 <div class="flex-1 grid grid-cols-1 md:grid-cols-3 gap-10 mx-4">
+
+                  <!-- triangle -->
+
                     <div class="card card-compact bg-base-100 w-96 md:w-80 shadow-xl">
                         <figure>
                           <img
@@ -40,6 +43,9 @@
                           </div>
                         </div>
                     </div>
+
+                    <!-- rectangle -->
+
                     <div class="card card-compact bg-base-100 w-96 md:w-80 shadow-xl">
                         <figure>
                           <img
@@ -61,6 +67,8 @@
                           </div>
                         </div>
                     </div>
+                    <!-- parallelogram -->
+
                     <div class="card card-compact bg-base-100 w-96 md:w-80 shadow-xl">
                         <figure>
                           <img
@@ -82,11 +90,61 @@
                           </div>
                         </div>
                     </div>
+                    <!-- rhombus -->
+
                     <div class="card card-compact bg-base-100 w-96 md:w-80 shadow-xl">
                         <figure>
                           <img
                             src="images/rhombus.png "
                             alt="rhombus" />
+                        </figure>
+                        <div class="card-body text-center">
+                          <h2 class="card-title pl-32 md:pl-20">Rhombus   </h2>
+                          <p>Area (A) =0.5 X w X I</p>
+                          <div>
+                            <input class="w-16 h-8 rounded-lg" type="number" name="" id="rhomFirstInput">
+                            <span>Cm</span>
+                            <input class="w-16 h-8 rounded-lg" type="number" name="" id="rhomSecondText">
+                            <span>Cm</span>
+                          </div>
+                          <p>Area: <span id="rhpm-Area"></span>cm <sup>2</sup></p>
+                          <div class="card-actions justify-center">
+                            <button onclick="calculateRhombusArea()" id="rhom-btn" class="btn btn-primary">Calculate</button>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!-- Pentagon -->
+
+                    <div class="card card-compact bg-base-100 w-96 md:w-80 shadow-xl">
+                        <figure>
+                          <img
+                            src="images/pentagon.png"
+                            alt="Pentagon" />
+                        </figure>
+                        <div class="card-body text-center">
+                          <h2 class="card-title pl-32 md:pl-20">Rhombus   </h2>
+                          <p>Area (A) =0.5 X w X I</p>
+                          <div>
+                            <input class="w-16 h-8 rounded-lg" type="number" name="" id="rhomFirstInput">
+                            <span>Cm</span>
+                            <input class="w-16 h-8 rounded-lg" type="number" name="" id="rhomSecondText">
+                            <span>Cm</span>
+                          </div>
+                          <p>Area: <span id="rhpm-Area"></span>cm <sup>2</sup></p>
+                          <div class="card-actions justify-center">
+                            <button onclick="calculateRhombusArea()" id="rhom-btn" class="btn btn-primary">Calculate</button>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!-- Ellipse -->
+
+                    <div class="card card-compact bg-base-100 w-96 md:w-80 shadow-xl">
+                        <figure>
+                          <img
+                            src="images/ellipse.png "
+                            alt="Ellipse" />
                         </figure>
                         <div class="card-body text-center">
                           <h2 class="card-title pl-32 md:pl-20">Rhombus   </h2>
